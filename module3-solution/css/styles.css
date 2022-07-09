@@ -11,19 +11,20 @@ body{
  }
 
 .navbar-brand {
-  padding-top: 15px;
+  padding-top: 1px;
+  /*padding-bottom: 5px;*/
 }
 
 .navbar-brand h1 { /* Company name */
   font-family: 'Lora', serif;
   color: #557c3e;
   font-size: 1.5em;
-  /*text-transform: uppercase;*/
+  text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: .75;
+  /*margin-top: 0;
+  margin-bottom: 0;*/
+  line-height: 0.25;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
